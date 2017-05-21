@@ -1,5 +1,11 @@
 applications:
-- memory: 512M
+- path: .http://ntn.eu-gb.mybluemix.net/
+  memory: 512M
+  instances: 1
+  domain: http://ntn.eu-gb.mybluemix.net/
+  name: Ntn CMP
+  host: Ntn CMP
+  disk_quota: 1024M
   services:
   - sample-node-red-cloudantNoSQLDB
   env:
