@@ -7,10 +7,6 @@ applications:
   host: Ntn CMP
   disk_quota: 1024M
   services:
-  - sample-node-red-cloudantNoSQLDB
+  - Cloudant NoSQL DB-nodeRed
   env:
-    NODE_RED_STORAGE_NAME: sample-node-red-cloudantNoSQLDB
-declared-services:
-  sample-node-red-cloudantNoSQLDB:
-    label: cloudantNoSQLDB
-    plan:  Lite
+    NODE_RED_STORAGE_NAME: Cloudant NoSQL DB-nodeRed
